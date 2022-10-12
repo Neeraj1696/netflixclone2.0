@@ -23,12 +23,12 @@ function Banner() {
   return (
     <div>
       <header
-        className="banner w-full h-96  "
+        className="banner h-96   "
         style={{
           backgroundSize: "cover",
-
+          backgroundPosition: "center ",
           backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
-          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="pt-24 pl-28">

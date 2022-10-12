@@ -12,6 +12,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       const request = await axios.get(fetchUrl);
 
       setMovie(request.data.results);
+
       return request;
     }
     fetchData();

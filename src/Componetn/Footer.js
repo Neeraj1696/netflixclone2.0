@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -6,12 +7,12 @@ function Footer() {
       <footer className="bg-slate-800 text-center lg:text-left p-6 ">
         <div className="text-white text-center p-4 background-color: rgba(0, 0, 0, 0.2)">
           © 2021 Copyright
-          <a
+          <Link
             className="text-white justify-center items-center relative "
-            href="https://netflix.com/"
+            to="https://www.netflix.com/in/"
           >
             Netflix Footer || It is Use For Education Purpose Only
-          </a>
+          </Link>
         </div>
       </footer>
     </div>

@@ -1,6 +1,13 @@
 body{
     background-color: black;
     color: white;
+    background-image:url('https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmV0ZmxpeHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
 }
 .row__posters::-webkit-scrollbar{
     display: none;
